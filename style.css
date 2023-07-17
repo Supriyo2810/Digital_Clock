@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: content-box;
+}
+.body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(45deg, #dc2424, #4a569d);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#title {
+  font-size: 70px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  margin: auto;
+  color: #3464d6;
+  text-shadow: 3px 4px 7px #000000;
+}
+.container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  grid-row: 3;
+}
+.myTime {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 700;
+  margin-right: 150px;
+  /* margin: auto; */
+}
+#Hour {
+  width: 150px;
+  height: 150px;
+  color: #fff;
+  background-color: #d73535;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: #000000 0px 20px 30px -10px;
+  text-shadow: 3px 4px 7px #000000;
+}
+#Minute {
+  width: 150px;
+  height: 150px;
+  color: #fff;
+  background-color: #34b334;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: #000000 0px 20px 30px -10px;
+  text-shadow: 3px 4px 7px #000000;
+}
+#Second {
+  width: 150px;
+  height: 150px;
+  color: #fff;
+  background-color: #b8ab15;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: #000000 0px 20px 30px -10px;
+  text-shadow: 3px 4px 7px #000000;
+}
+#M {
+  font-size: 50px;
+  text-shadow: 3px 4px 7px #000000;
+  color: #fff;
+}
+.myDate {
+  font-size: 35px;
+  color: #fff;
+  font-weight: 700;
+  margin: 0 auto;
+  text-shadow: 3px 4px 7px #000000;
+}
+span {
+  color: #2cdfd9;
+}
